@@ -92,6 +92,8 @@ var language = {
 
   // Check if a hash value exists in the URL
 if (window.location.hash && window.location.hash == "#fr") {
+    displayFrench.style.display = "none";
+    displayEnglish.style.display = "block";
     homeStart.textContent = language.fr.homeStart;
     about.textContent = language.fr.about;
     contacts.textContent = language.fr.contacts;
@@ -136,6 +138,8 @@ if (window.location.hash && window.location.hash == "#fr") {
     document.getElementById('form-contact-name').placeholder= 'Nom';
     document.getElementById('form-contact-subject').placeholder= 'Sujet';
 } else if (window.location.hash && window.location.hash == "#eng") {
+    displayEnglish.style.display = "none";
+    displayFrench.style.display = "block";
     homeStart.textContent = language.en.home;
     about.textContent = language.en.about;
     contacts.textContent = language.en.contacts;
