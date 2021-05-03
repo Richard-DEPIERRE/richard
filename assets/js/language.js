@@ -18,7 +18,6 @@ var language = {
         selftaught: "Self-taught",
         myTools: "My Tools",
         angular: "I have worked for more than 6 months on a Angular based website.",
-        readMore: "Read more",
         nodeJs: "I used NodeJs to developpe most of my website to have a stable and strong back-end.",
         sql: "SQL is one of the most fastest and easiest databases for web developpement.",
         django: "Django and flask are powerful Python-based free and open-source web framework.",
@@ -57,7 +56,6 @@ var language = {
         selftaught: "Autodidacte",
         myTools: "Mes Outils",
         angular: "J'ai travaillé pendant plus de 6 mois sur un site web basé sur Angular.",
-        readMore: "Lire la suite",
         nodeJs: "J'ai utilisé NodeJs pour développer la plupart de mon site web afin d'avoir un back-end stable et solide.",
         sql: "SQL est l'une des bases de données les plus rapides et les plus faciles à utiliser pour le développement de sites web",
         django: "Django et flask sont de puissants frameworks web gratuits et open-source basés sur Python.",
@@ -101,12 +99,12 @@ if (window.location.hash && window.location.hash == "#fr") {
     selftaught.textContent = language.fr.selftaught;
     myTools.textContent = language.fr.myTools;
     angular.textContent = language.fr.angular;
-    readMore.textContent = language.fr.readMore;
-    readMore2.textContent = language.fr.readMore;
-    readMore3.textContent = language.fr.readMore;
-    readMore4.textContent = language.fr.readMore;
-    readMore5.textContent = language.fr.readMore;
-    readMore6.textContent = language.fr.readMore;
+    // readMore.textContent = language.fr.readMore;
+    // readMore2.textContent = language.fr.readMore;
+    // readMore3.textContent = language.fr.readMore;
+    // readMore4.textContent = language.fr.readMore;
+    // readMore5.textContent = language.fr.readMore;
+    // readMore6.textContent = language.fr.readMore;
     nodeJs.textContent = language.fr.nodeJs;
     sql.textContent = language.fr.sql;
     django.textContent = language.fr.django;
