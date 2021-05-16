@@ -25,7 +25,7 @@ var language = {
         cProgramming: "Most of my first year projects were in C to get a better understanding of how programms work.",
         aboutMe: "About Me",
         hi: "Hi There",
-        info: "I am a in my third year of my bachelor's degree at Epitech Montpellier. I am currently looking for a full-time job as a full-stack developper for 4 months. Then a 6 months part-time job and finally a 6 months internship to finish my bachelor's degree. I am very autodidact and very keen to learn new things.",
+        info: "I am a in my third year of my bachelor's degree at Epitech Montpellier. I am currently looking for a full-time job as a full-stack developper for 3 months. Then a 6 months part-time job and finally a 6 months internship to finish my bachelor's degree. I am very autodidact and very keen to learn new things.",
         name: "Name:",
         phone: "Phone:",
         contactMe: "Contact Me",
@@ -47,6 +47,7 @@ var language = {
         nameStar: "Name *",
         subjectStar: "Subject *",
         sendAMessage: "Send a Message",
+        countries: "Countries",
     },
     fr: {
         homeStart: "Acceuil",
@@ -63,7 +64,7 @@ var language = {
         cProgramming: "La plupart de mes projets de première année étaient en C afin de mieux comprendre le fonctionnement des programmes.",
         aboutMe : "À propos de moi",
         hi : "Salut",
-        info : "Je suis un étudiant en troisième année de bachelor à Epitech Montpellier. Je suis actuellement à la recherche d'un emploi à temps plein en tant que développeur full-stack pendant 4 mois. Puis un emploi à temps partiel de 6 mois et enfin un stage de 6 mois pour finir ma licence. Je suis très autodidacte et très désireux d'apprendre de nouvelles choses.",
+        info : "Je suis un étudiant en troisième année de bachelor à Epitech Montpellier. Je suis actuellement à la recherche d'un emploi à temps plein en tant que développeur full-stack pendant 3 mois. Puis un emploi à temps partiel de 6 mois et enfin un stage de 6 mois pour finir ma licence. Je suis très autodidacte et très désireux d'apprendre de nouvelles choses.",
         nameInfo : "Nom :",
         phone : "Téléphone :",
         contactMe : "Contact Me",
@@ -85,6 +86,7 @@ var language = {
         nameStar : "Nom *",
         subjectStar : "Sujet *",
         sendAMessage : "Envoyer un message",
+        countries: "Pays",
     }
 };
 
@@ -106,6 +108,7 @@ if (window.location.hash && window.location.hash == "#fr") {
     // readMore5.textContent = language.fr.readMore;
     // readMore6.textContent = language.fr.readMore;
     nodeJs.textContent = language.fr.nodeJs;
+    countries.textContent = language.fr.countries;
     sql.textContent = language.fr.sql;
     django.textContent = language.fr.django;
     cplusplus.textContent = language.fr.cplusplus;
@@ -145,13 +148,14 @@ if (window.location.hash && window.location.hash == "#fr") {
     selftaught.textContent = language.en.selftaught;
     myTools.textContent = language.en.myTools;
     angular.textContent = language.en.angular;
-    readMore.textContent = language.en.readMore;
-    readMore2.textContent = language.en.readMore;
-    readMore3.textContent = language.en.readMore;
-    readMore4.textContent = language.en.readMore;
-    readMore5.textContent = language.en.readMore;
-    readMore6.textContent = language.en.readMore;
+    // readMore.textContent = language.en.readMore;
+    // readMore2.textContent = language.en.readMore;
+    // readMore3.textContent = language.en.readMore;
+    // readMore4.textContent = language.en.readMore;
+    // readMore5.textContent = language.en.readMore;
+    // readMore6.textContent = language.en.readMore;
     nodeJs.textContent = language.en.nodeJs;
+    countries.textContent = language.en.countries;
     sql.textContent = language.en.sql;
     django.textContent = language.en.django;
     cplusplus.textContent = language.en.cplusplus;
