@@ -71,7 +71,7 @@ var language = {
         workTogether : "Travaillons ensemble sur votre prochain projet !",
         hire : "Embauchez-moi maintenant !",
         projects : "Projets",
-        hoursPerDay : "Heures par jour de travail",
+        hoursPerDay : "Contributions",
         yearsExp : "Années d'expérience",
         testimonial : "Témoignages",
         testimonial1 : "Richard, malgré le fait qu'il soit au début de ses études, possède déjà de solides connaissances, qu'il développera évidemment en un excellent ingénieur à la fin de ses études. Sa personnalité est très agréable et il est très sérieux. Bref, une excellente recrue",
